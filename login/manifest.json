@@ -1,0 +1,24 @@
+{
+  "vendor": "webimpacto",
+  "name": "loginjc",
+  "version": "1.0.0",
+  "title": "Loginjc",
+  "description": "Componente Login",
+  "defaultLocale": "en-EN",
+  "builders": {
+    "store": "0.x",
+    "react": "3.x",
+    "messages": "1.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "scripts": {
+    "prereleasy": "bash lint.sh",
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store-components": "3.x",
+    "vtex.slider": "0.x",
+    "vtex.store-icons": "0.x",
+    "vtex.login": "2.x"
+  }
+}

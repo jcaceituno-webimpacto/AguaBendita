@@ -1,0 +1,55 @@
+@font-face{
+  font-family: 'Magenta';
+  src: url('./fonts/Magenta.ttf')format('truetype');
+} 
+.imagen{
+  width: 100%;
+}
+.nomarnopad{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.rowBanner11 h2{
+  font-family: 'Magenta' !important;
+}
+.image{
+  width: 100%;
+  object-fit: cover;
+}
+.imagen2{
+  height: 100%;
+  object-fit: cover;
+}
+.colDerecha{
+  margin-bottom: 100px;
+}
+.colIzquierda{
+  background-color: #EBE9AC;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+.colIzquierda div{
+  padding-right: 20px;
+}
+.colIzquierda *{
+  float: right;
+}
+.colIzquierda h1{
+  color: white;
+  margin: 0px !important;
+  font-size: 3rem;
+}
+.colIzquierda p{
+  width: 51%;
+  margin-bottom: 0px !important;
+}
+.colIzquierda h2{
+  font-size: 4rem;
+  width: 50%;
+  font-weight: 500;
+  margin: 0px !important;
+}
+.divTop{
+  margin-bottom: 30px;
+}

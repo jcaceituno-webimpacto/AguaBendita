@@ -1,0 +1,6 @@
+{
+  "topbar": {
+    "component": "TopBar",
+    "allowed": ["loginjc","login"]
+  }
+}

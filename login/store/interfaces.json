@@ -1,0 +1,6 @@
+{
+  "loginjc": {
+    "component": "Login",
+    "allowed": ["login"]
+  }
+}

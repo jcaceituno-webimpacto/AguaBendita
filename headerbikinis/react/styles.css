@@ -1,0 +1,11 @@
+.parent{
+  display: flex;
+  justify-content: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.child{
+  margin-left: auto;
+  display: flex;
+  align-items: center
+}

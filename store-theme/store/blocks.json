@@ -1,0 +1,276 @@
+{
+  "store.home.webimpacto": {
+    "blocks": [
+      "carouseljc#home",
+      "app1",
+      "bikinis#home",
+      "app3",
+      "app4",
+      "app5",
+      "slideralberto",
+      "app7",
+      "app8",
+      "minibanners#home",
+      "sliderdosalberto",
+      "banner11#home",
+      "app12",
+      "app13",
+      "app14",
+      "app15"
+    ]
+  },
+  "store.product": {
+    "blocks": [
+      "product-details#default",
+      "product-kit",
+      "shelf.relatedProducts"
+    ]
+  },
+  "store.search": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result#department"
+    ]
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login-content#default"
+    ]
+  },
+  "store.orderplaced": {
+    "blocks": [
+      "order-placed"
+    ]
+  },
+  "header": {
+    "blocks": [
+      "webimpacto.header:topbar",
+      "minicart",
+      "menujc"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "webimpacto.header:topbar",
+      "login",
+      "minicart",
+      "menujc"
+    ]
+  },
+  "menu-link": {
+    "props": {
+      "numberOfItems": 6,
+      "item1": {
+        "title": "Atendimento",
+        "typeOfRoute": "internal",
+        "page": "store/home",
+        "position": "right"
+      },
+      "item2": {
+        "title": "Programa de Afiliados",
+        "typeOfRoute": "internal",
+        "position": "middle"
+      },
+      "item3": {
+        "title": "Anuncie",
+        "typeOfRoute": "internal",
+        "position": "middle"
+      },
+      "item4": {
+        "title": "Televendas 4003-2018",
+        "typeOfRoute": "internal",
+        "position": "left"
+      },
+      "item5": {
+        "title": "Sobre",
+        "typeOfRoute": "internal",
+        "position": "right"
+      }
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Ir para o checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10
+    }
+  },
+  
+  "carouseljc#home": {
+    "props": {
+      "banners": []
+    }
+  },
+  "minibanners#home":{
+    "props":{
+      "banners":[]
+    }
+  },
+  "banner11#home":{
+    "props":{
+      "banners":[]
+    }
+  },
+  "bikinis#home": {
+    "props": {
+      "imagenes": []
+    }
+  },
+  "header#home":{
+  },
+  "shelf#home": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "New collection",
+        "summary": {
+          "isOneClickBuy": false,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Comprar",
+          "displayBuyButton": "displayButtonHover",
+          "showCollections": false,
+          "showListPrice": true,
+          "showLabels": false,
+          "showInstallments": true,
+          "showSavings": true,
+          "name": {
+            "showBrandName": false,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+  "product-details#default": {
+    "blocks": [
+      "breadcrumb",
+      "product-name",
+      "product-images",
+      "product-price",
+      "product-description",
+      "product-specifications",
+      "buy-button",
+      "sku-selector",
+      "shipping-simulator",
+      "availability-subscriber",
+      "share"
+    ],
+    "props": {
+      "displayVertically": true,
+      "share": {
+        "social": {
+          "Facebook": true,
+          "WhatsApp": true,
+          "Twitter": false
+        }
+      },
+      "price": {
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
+      "name": {
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
+      }
+    }
+  },
+  "search-result#department": {
+    "blocks": [
+      "filter-navigator",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "order-by",
+      "total-products"
+    ],
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonAlways",
+        "showCollections": false,
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "show-more"
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}
